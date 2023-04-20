@@ -1,6 +1,6 @@
 USE CASE MODEL: UM.DEF.1
 
-USE CASE - View customers
+USE CASE: UC.VC.001 - View customers
 
 Actors: Agency manager
 
