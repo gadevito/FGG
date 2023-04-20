@@ -1,5 +1,3 @@
-USE CASE MODEL: UM.DEF.1
-
 USE CASE: UC.VC.001 - View customers
 
 Actors: Agency manager
@@ -11,7 +9,6 @@ Postconditions:
 - If the Agency manager selects a specific customer, he can view the given customer's details
 
 Main scenario:
-
 1. The user clicks 'Show customers'.
 2. The system searches the customers from the CUSTOMER Table, having the active attribute =True
 3. The system lists the customers in a table containing the following columns: ID, surname, name, and City. The ID value is a link.
