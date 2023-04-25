@@ -1,0 +1,41 @@
+USE CASE - UCS.002.TS - Update patient's details
+
+Actors: Doctor
+
+Preconditions: 
+- The Patient table must contain at least one patient's record.
+- The doctor has permission to edit the patient's details.
+
+Postconditions: 
+- The doctor can list patients.
+- If the doctor selects a specific patient, he can view the given patient's details.
+- The new patient's details are stored in the Patient table.
+
+Main scenario:
+
+1. The doctor selects the sub-option 'Patients.'
+2. The system displays a form to search for patients using the following parameters: surname, name, city, and gender.
+3. The doctor fills in the parameters of his interest and presses 'Search.'
+4. The system searches for patients matching the input parameters.
+5. The system lists the patients in a table containing the following columns: ID, surname, name, gender, and City. The ID value is a link.
+6. The doctor clicks an ID of his interest.
+7. The system looks for the given customer's details.
+8. The system displays the given customer's details in an editable form.
+9. The doctor changes the fields of his interest and presses 'Save.'
+10. The system updates the patient's details.
+11. The system shows a message stating that the new patient's details have been saved.
+
+Alternative flows:
+Alternative flow no.1
+3a. The user clicks 'Home' to return to the home page
+
+Alternative flow no.2
+6a. The user clicks 'Home' to return to the home page
+
+Alternative flow no.3
+9a. The user clicks 'Home' to return to the home page
+
+Exceptions:
+5a. The system displays an error message stating, 'No patient has been found.'
+8a. The system displays an error message stating, 'The patient does not exist.'
+11a. The system displays an error message stating, 'A system error occurred.'
