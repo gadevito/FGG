@@ -1,2 +1,2 @@
-# FGG
-From Good to Great supplementary material.
+# ECHO 
+Supplementary material.
